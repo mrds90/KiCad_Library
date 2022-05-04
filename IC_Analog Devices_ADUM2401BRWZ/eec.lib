@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Analog Devices ADUM2401BRWZ
+#
+DEF ADUM2401BRWZ U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "ADUM2401BRWZ" 0 300 50 H V L CNN 
+F2 "Analog_Devices-ADUM2401BRWZ-*" 0 400 50 H I L CNN 
+F3 "http://www.analog.com/static/imported-files/data_sheets/ADuM2400_2401_2402.pdf" 0 500 50 H I L CNN 
+F4 "MS-013-AA" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.analog.com/en/index.html" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.analog.com/static/imported-files/packages/PKG_PDF/SOIC_WIDE%20%28RW%29/RW_16.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "URL Link1" 0 1100 50 H I L CNN "Component Link 4 Description"
+F10 "Product URL:http://www.analog.com/en/interface-isolation/digital-isolators/adum2401/products/product.html" 0 1200 50 H I L CNN "Component Link 4 URL"
+F11 "10-12-2010-A" 0 1300 50 H I L CNN "Datasheet Version"
+F12 "5" 0 1400 50 H I L CNN "Insulation Rating kVrms"
+F13 "10Mbps" 0 1500 50 H I L CNN "Max Data Rate"
+F14 "105" 0 1600 50 H I L CNN "Max Operating Temp degreesC"
+F15 "Surface Mount" 0 1700 50 H I L CNN "Mounting Technology"
+F16 "16-Pin Standard Small Outline Package, Body 10.3 x 7.5 mm, Pitch 1.27 mm" 0 1800 50 H I L CNN "Package Description"
+F17 "032707-B, 03/2007" 0 1900 50 H I L CNN "Package Version"
+F18 "IC" 0 2000 50 H I L CNN "category"
+F19 "17503722" 0 2100 50 H I L CNN "ciiva ids"
+F20 "c079f2af0ae45ed9" 0 2200 50 H I L CNN "library id"
+F21 "Analog Devices" 0 2300 50 H I L CNN "manufacturer"
+F22 "RW-16" 0 2400 50 H I L CNN "package"
+F23 "1391072414" 0 2500 50 H I L CNN "release date"
+F24 "42D03A6A-0B16-438F-ABCE-C7978322784B" 0 2600 50 H I L CNN "vault revision"
+F25 "yes" 0 2700 50 H I L CNN "imported"
+DRAW
+X VDD1 1 100 -900 100 R 40 40 1 1 W 
+X GND1 2 1100 -800 100 L 40 40 1 1 W 
+X VIA 3 100 0 100 R 40 40 1 1 I 
+X VIB 4 100 -100 100 R 40 40 1 1 I 
+X VIC 5 100 -200 100 R 40 40 1 1 I 
+X VOD 6 100 -300 100 R 40 40 1 1 U 
+X VE1 7 100 -500 100 R 40 40 1 1 I 
+X GND1 8 1100 -900 100 L 40 40 1 1 W 
+X GND2 9 1100 -1000 100 L 40 40 1 1 W 
+X VE2 10 100 -600 100 R 40 40 1 1 I 
+X VID 11 1100 -300 100 L 40 40 1 1 I 
+X VOC 12 1100 -200 100 L 40 40 1 1 U 
+X VOB 13 1100 -100 100 L 40 40 1 1 U 
+X VOA 14 1100 0 100 L 40 40 1 1 U 
+X GND2 15 1100 -1100 100 L 40 40 1 1 W 
+X VDD2 16 100 -1100 100 R 40 40 1 1 W 
+S 200 100 1000 -1200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
